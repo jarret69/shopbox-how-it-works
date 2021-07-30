@@ -29,3 +29,21 @@
 .howItWork-details{
     margin: 3rem 0;
 }
+
+.shopb-gap{
+    margin: 5.5rem;
+}
+
+.shopb-top{
+    padding-top: 8.5rem;
+}
+
+@media (max-width: 375px)
+      {
+       .columns{
+          width: 1140px !important;
+       }
+       col{
+           width: 50%;
+       }
+    }
