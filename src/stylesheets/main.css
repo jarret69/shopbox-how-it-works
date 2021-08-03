@@ -34,16 +34,39 @@
     margin: 5.5rem;
 }
 
-.shopb-top{
-    padding-top: 8.5rem;
+.col .shopb-top{
+    padding-top: 8.5rem !important;
 }
 
-@media (max-width: 375px)
-      {
-       .columns{
+.lower-header{
+    margin: auto;
+    text-align: center;
+    margin-top: 6rem;
+}
+
+@media (min-width: 320px){
+       /*.columns{
           width: 1140px !important;
+       }*/
+
+       .image-content img {
+          width: 930px !important;
+          height: auto;
        }
-       col{
-           width: 50%;
-       }
+
+       
     }
+    @media (min-width: 480px){
+        /*.columns{
+           width: 1140px !important;
+        }*/
+ 
+        .image-content img {
+           width: 930px !important;
+           height: auto;
+        }
+ 
+        
+     }
+
+  /*  width="1110" height="472" */
